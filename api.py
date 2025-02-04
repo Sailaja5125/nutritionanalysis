@@ -5,7 +5,7 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
-genai.configure(api_key="AIzaSyA1ZBEju7v_EoAPzA8R6ijmK5aG8tpgYEA")
+genai.configure(api_key="Your Own API key")
 
 @app.route('/recognize', methods=['POST'])
 def recognize_food():
