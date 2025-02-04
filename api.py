@@ -1,4 +1,4 @@
-# flask app
+# flask app use PIL image library for loading the static images not image urls 
 from flask import Flask, request, jsonify
 import google.generativeai as genai
 from flask_cors import CORS
